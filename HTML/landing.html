@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>landing</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<!-- creat navbar area  -->
+<body>
+<nav class="navbar navbar-inverse" >
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" >
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <div class="col-sm-12 phone-nav">
+      <a class="navbar-brand" href="landing.html">Latitude</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+       
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="landing.html">Plots <span class="caret"></span></a>
+          <ul class="dropdown-menu"role="menu">
+            <li><a href="max-temp.html">Max Temperature</a></li>
+            <li><a href="Humidity.html">Humidity</a></li>
+            <li><a href="cloudiness.html">Cloudiness</a></li>
+            <li><a href="WindSpeed.html">WindSpeed</a></li>
+          </ul>
+        </li>
+        <li><a href="cloudiness.html"> Comparison</a></li>
+        <li><a href="Data.html">data</a></li>
+      </ul>
+     </div>
+ </nav>         
+        <!-- Navbar close -->
+        <body>
+              
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8">
+            
+            <article class="description-content">
+              <div class="col-md-8" style="width: 680px;">
+               <h1 class="description-header">Summary: Latitude vs. X</h1>
+              <hr class="description-hr"/>
+              <img src="Resources/assets/images/Fig1.png" alt="" id="description-image"/>
+              <div>
+                <br>
+              <p>The purpose of this project was to analyze how weather changes as you get closer to the equator.To accomplish this analysis,we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.After assembing the dataset, we used Matplotib to plot various aspects of the weather vs.latitude.Factors we looked at include:
+                Temperature, Cloudiness, WindSpeed, and Humidity.This site provides the source data and Visualizations created as part of the analysis, as well as explanations and description of any trendss and correlations witnessed.
+                </p>
+              </br>
+            </article> 
+          </div> 
+          
+          <div class="col-sm-4" style="width: 680px;">
+            <!-- Visualizations imageNav area -->
+            <article id="imageNav-area">
+              <div class="imageNav-content">
+                <h2 class="imageNav-header">Visualizations</h2>
+                <hr/>
+                <div id="images">
+                    <a href="MaxTemperature.html"><img src="Resources/assets/images/Fig1.png" class="imageNav-photo"></a>
+                    <a href="Humidity.html"><img src="Resources/assets/images/Fig2.png" class="imageNav-photo"></a>
+                    <a href="Cloudiness.html"><img src="Resources/assets/images/Fig3.png" class="imageNav-photo"></a>
+                    <a href="WindSpeed.html"><img src="Resources/assets/images/Fig4.png" class="imageNav-photo"></a> 
+                  </section> 
+                   
+                </div>
+              </div>  <!-- imageNav content -->
+            </article>  <!-- imageNav-area -->
+            <!-- End of Visualization imgs -->
+          </div>  
+        
+      </div> <!-- End of the container -->
+    
+      <!-- jQuery CDN -->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+       <!-- Bootstrap CDN -->
+    
+    </body>
+     
+      </div>
+  
+</nav>
+
+
+</body>
