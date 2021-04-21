@@ -1,16 +1,16 @@
 # -Web-Design-Challenge
 
-**Latitude Analysis Dashboard with Attitude
+Latitude Analysis Dashboard with Attitude
 
 we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting weather data.
 In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
 
 
-**Website Requirements
-**For reference, see the "Screenshots" section below.
+Website Requirements
+For reference, see the "Screenshots" section below.
 The website must consist of 7 pages total, including:
 
-**A landing page containing:
+A landing page containing:
 
 An explanation of the project.
 Links to each visualizations page.
